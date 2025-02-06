@@ -12,13 +12,5 @@ func MergeSort(list []int) {
 	// Rufen Sie MergeSort rekursiv für beide Hälften auf
 	// und führen Sie dann Merge für die beiden sortierten Hälften aus.
 
-	mid := len(list) / 2
-	left := list[:mid]
-	right := list[mid:]
-
-	MergeSort(left)
-	MergeSort(right)
-
-	result := Merge(left, right)
-	copy(list, result)
+	// TODO
 }

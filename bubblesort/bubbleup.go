@@ -10,11 +10,7 @@ func BubbleUp(list []int) bool {
 	// Verwenden Sie eine For-Schleife, um über die Liste zu iterieren.
 	// Vergleichen Sie jedes Element mit dem nächsten.
 	// Achten Sie darauf, dass Sie nicht über das Ende der Liste hinausgehen.
-	for i := 0; i < len(list)-1; i++ {
-		if list[i] > list[i+1] {
-			list[i], list[i+1] = list[i+1], list[i]
-			swapped = true
-		}
-	}
+
+	// TODO
 	return swapped
 }

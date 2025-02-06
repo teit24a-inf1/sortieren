@@ -8,8 +8,5 @@ func SelectionSort(list []int) {
 	// und dann nach und nach mit einer kürzeren Liste.
 	// Tauschen Sie das kleinste Element mit dem ersten Element der Liste.
 
-	for i := 0; i < len(list); i++ {
-		pos := SmallestPos(list[i:]) + i
-		list[i], list[pos] = list[pos], list[i]
-	}
+	// TODO
 }

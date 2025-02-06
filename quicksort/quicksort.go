@@ -14,20 +14,5 @@ func QuickSort(list []int) {
 	// Rufen Sie QuickSort rekursiv für beide Listen auf.
 	// Fügen Sie die sortierten Listen zusammen, um die sortierte Liste zu erhalten.
 
-	pivot := list[0]
-	left := []int{}
-	right := []int{}
-
-	for _, v := range list[1:] {
-		if v < pivot {
-			left = append(left, v)
-		} else {
-			right = append(right, v)
-		}
-	}
-
-	QuickSort(left)
-	QuickSort(right)
-
-	copy(list, append(append(left, pivot), right...))
+	// TODO
 }

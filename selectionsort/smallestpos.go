@@ -9,10 +9,6 @@ func SmallestPos(list []int) int {
 	// Vergleichen Sie das aktuelle Element mit dem kleinsten Element.
 	// Aktualisieren Sie die Position des kleinsten Elements, wenn das aktuelle Element kleiner ist.
 
-	for i := 1; i < len(list); i++ {
-		if list[i] < list[smallest] {
-			smallest = i
-		}
-	}
+	// TODO
 	return smallest
 }

@@ -8,8 +8,6 @@ func MoveLeft(list []int, pos int) {
 	// Tauschen Sie das Element mit dem vorherigen Element, wenn es kleiner ist.
 	// Beenden Sie die Schleife, wenn das Element an der richtigen Position ist
 	// oder wenn Sie den Anfang der Liste erreicht haben.
-	for pos > 0 && list[pos] < list[pos-1] {
-		list[pos], list[pos-1] = list[pos-1], list[pos]
-		pos--
-	}
+
+	// TODO
 }
